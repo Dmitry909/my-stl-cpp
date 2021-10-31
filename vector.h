@@ -44,9 +44,11 @@ namespace MySTD {
         }
 
         T back() const {
-            if (size_) {
-                return begin_ + (size_ - 1);
-            }
+            return begin_ + (size_ - 1);
+        }
+
+        T operator[](size_t pos) const {
+            return *(begin_ + pos);
         }
 
         size_t size() const {
