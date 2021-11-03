@@ -1,14 +1,11 @@
 #**Vector's methods to realize**
 
-###**Constructors**
+###**Constructors and destrucor**
 
 + ~~vector()~~
 + ~~vector(size, T value)~~
 + vector(const vector<T>& other)
-
-###**Destrucor**
-
-+ ~~vector()~~
++ ~~\~vector()~~
 
 ###**Comparison operators**
 
@@ -26,16 +23,13 @@
 + iterator begin() // if object isn't const
 + const iterator cbegin()
 
-
 + const iterator end()
 + iterator end()
 + const iterator cend()
 
-
 + const iterator rbegin()
 + iterator rbegin()
 + const iterator crbegin()
-
 
 + const iterator rend()
 + iterator rend()
@@ -43,7 +37,7 @@
 
 ###**Modifiers**
 
-+ clear()
++ ~~clear()~~
 + insert()
 + ~~push_back()~~
 + emplace_back()
@@ -63,7 +57,7 @@
 
 ###**Memory**
 
-+ empty()
++ ~~empty()~~
 + ~~size()~~
 + max_size()
 + capacity()
