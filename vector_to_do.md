@@ -59,7 +59,7 @@
 
 + ~~empty()~~
 + ~~size()~~
-+ max_size()
-+ capacity()
++ max_size() ??? how to realize?
++ ~~capacity()~~
 + reserve()
 + shrink_to_fit()

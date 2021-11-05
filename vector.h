@@ -98,12 +98,18 @@ namespace MySTD {
             return *(data_begin_ + pos);
         }
 
+        // Memory
+
+        bool empty() const {
+            return size_ == 0;
+        }
+
         size_t size() const {
             return size_;
         }
 
-        bool empty() const {
-            return size_ == 0;
+        size_t capacity() const {
+            return capacity_;
         }
 
     private:
